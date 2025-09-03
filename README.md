@@ -117,3 +117,10 @@ Because life is too short to write the same validation loop for the hundredth ti
 ## License
 
 MIT License. Because sharing is caring.
+
+
+---
+
+
+
+https://github.com/KaykCaputo/Intput-Lib
