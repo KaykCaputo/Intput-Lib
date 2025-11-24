@@ -1,5 +1,5 @@
 # IntputLib
-[![PyPI](https://img.shields.io/pypi/v/intputlib?label=PyPI)](https://pypi.org/project/intputlib)
+[![PyPI](https://img.shields.io/pypi/v/intputlib?label=PyPI)](https://pypi.org/project/intputlib) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/intputlib?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/intputlib)
 
 **Because typing `int(input())` everywhere is a rite of passage we'd rather skip.**
 
