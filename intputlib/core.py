@@ -1,5 +1,6 @@
 from typing import Optional
 
+
 def intput(msg: str, error_msg: str = "Invalid input! Please enter an integer.") -> int:
     """
     Read an integer from user input with a message prompt.
@@ -17,8 +18,13 @@ def intput(msg: str, error_msg: str = "Invalid input! Please enter an integer.")
         except ValueError:
             print(error_msg)
 
-def intput_range(msg: str, min_val: int, max_val: int,
-                 error_msg: Optional[str] = None) -> int:
+
+def intput_range(
+    msg: str,
+    min_val: int,
+    max_val: int,
+    error_msg: Optional[str] = None,
+) -> int:
     """
     Read an integer from user input within a specified range.
 
@@ -32,6 +38,7 @@ def intput_range(msg: str, min_val: int, max_val: int,
         int: The integer entered by the user within the range.
     """
     default_error = f"Invalid input! Please enter an integer between {min_val} and {max_val}."
+
     if error_msg is None:
         error_msg = default_error
 
@@ -45,9 +52,10 @@ def intput_range(msg: str, min_val: int, max_val: int,
         except ValueError:
             print(error_msg)
 
-def floatput(msg: str, error_msg: str = "Invalid input! Please enter an float.") -> float:
+
+def floatput(msg: str, error_msg: str = "Invalid input! Please enter a float.") -> float:
     """
-    Read an float from user input with a message prompt.
+    Read a float from user input with a message prompt.
 
     Parameters:
         msg (str): The prompt message to display.
@@ -61,5 +69,4 @@ def floatput(msg: str, error_msg: str = "Invalid input! Please enter an float.")
             return float(input(msg))
         except ValueError:
             print(error_msg)
-
 
